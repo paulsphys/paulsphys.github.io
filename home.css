@@ -1,0 +1,25 @@
+.icon {
+	height: 1.5em;
+	opacity: 0.5;
+	width: 1.5em;
+    	filter: brightness(0) saturate(100%);
+}
+
+.icon-column {
+	width: 3%;
+}
+
+#contact {
+	padding-left : 16%;
+	text-align : left;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .icon {
+        filter: none;   
+    }
+    
+    
+}
+
