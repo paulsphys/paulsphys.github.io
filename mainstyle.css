@@ -161,7 +161,6 @@ body {
 	#content {
 		grid-column: 1;
 		grid-row: 4;
-		color: white;
 	}
 
 	#content > p {text-align: justify;}
