@@ -74,6 +74,7 @@ body {
 }
 
 #top > ul > li > a {
+	color: black;
 	text-decoration: none;	
 }
 
@@ -83,6 +84,9 @@ body {
 	overflow: auto;
 }
 
+#content > a, a:visited {
+	color: #01578a;
+}
 #image > img {
 	height: auto;
 	width: 44%;

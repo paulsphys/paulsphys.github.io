@@ -7,7 +7,7 @@ body {
 	grid-row: 2;
 	display: grid;
 	grid-template-columns: 2fr 0.5fr;	
-	grid-template-rows: 30vh 70vh;
+	grid-template-rows: 25vh 70vh;
 	overflow: hidden;
 	
 }
