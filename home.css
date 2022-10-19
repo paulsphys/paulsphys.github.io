@@ -6,18 +6,24 @@
 }
 
 .icon-column {
-	width: 3%;
+	width: 3%
+	text-align : center;
 }
 
 #contact {
-	padding-left : 16%;
-	text-align : left;
+	padding-left: 14%;
+	text-align : center;
 }
 
 
 @media only screen and (max-width: 850px) {
     .icon {
         filter: none;   
+    }
+
+    #contact {
+	padding-left: 14%;
+	text-align : center;
     }
     
     
