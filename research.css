@@ -64,6 +64,17 @@ body {
 /* Media Queries */
 
 @media screen and (max-width: 600px) {
+	#main {
+		grid-template-columns: 100%;
+	}
+	#name {
+		grid-row: 1;
+	}
+
+	#navbar {
+		grid-row: 2;		
+	}
+	
 	#content {
 		grid-row: 3;
 		display: grid;
@@ -71,6 +82,7 @@ body {
         	grid-gap: 5px;	
 		grid-template-rows: auto;
 		overflow: auto;
+		text-align: left;
 	}
 	#r1 {
 		grid-column: 1;
